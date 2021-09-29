@@ -6,7 +6,7 @@ import {
 } from '@testing-library/react';
 import { composeStories } from '@storybook/testing-react';
 
-import * as stories from '../Title.stories';
+import * as stories from '../Grid.stories';
 
 const { Default } = composeStories(stories);
 
@@ -14,9 +14,9 @@ const { Default } = composeStories(stories);
 afterEach(cleanup);
 const storyComponent = <Default />;
 
-it('should render a title', () => {
+it('should render a grid', () => {
 	render(storyComponent);
-	expect(screen.getByTestId('test-Title')).toBeVisible();
+	expect(screen.getByTestId('test-Grid')).toBeVisible();
 });
 
 it('matches snapshot', () => {
