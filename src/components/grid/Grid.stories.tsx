@@ -13,5 +13,5 @@ const Template: Story<IGridProps> = args => <Grid {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-
+	size: 10,
 };

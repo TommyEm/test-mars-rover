@@ -6,14 +6,14 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdfBQB cfbvzk Rover undefined"
+        class="sc-bdfBQB bEExDY Rover undefined"
         data-testid="test-Rover"
       />
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bdfBQB cfbvzk Rover undefined"
+      class="sc-bdfBQB bEExDY Rover undefined"
       data-testid="test-Rover"
     />
   </div>,
