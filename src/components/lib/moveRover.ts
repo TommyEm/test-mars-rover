@@ -1,4 +1,5 @@
 import { RoverCommands, RoverDirection, RoverPosition } from "../../types/rover";
+import { GRID_SIZE } from "../../constants";
 
 export function moveRover(
 	command: RoverCommands,
@@ -8,15 +9,17 @@ export function moveRover(
 	let newPos = { ...currentPos };
 	let newDir = currentDir;
 
+	const maxPos = GRID_SIZE - 1;
+
 	switch (command) {
 		case 'f':
-			if (currentDir === 'N') {
+			if (currentDir === 'N' && currentPos.y < maxPos) {
 				newPos.y++;
-			} else if (currentDir === 'E') {
+			} else if (currentDir === 'E' && currentPos.x < maxPos) {
 				newPos.x++;
-			} else if (currentDir === 'S') {
+			} else if (currentDir === 'S' && currentPos.y > 0) {
 				newPos.y--;
-			} else if (currentDir === 'W') {
+			} else if (currentDir === 'W' && currentPos.x > 0) {
 				newPos.x--;
 			}
 			break;

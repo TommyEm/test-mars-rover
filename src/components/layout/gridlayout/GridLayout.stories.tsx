@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react';
 import { GridLayout, IGridLayoutProps } from './GridLayout';
 
 export default {
-	title: 'Components/GridLayout',
+	title: 'Components/Layout/GridLayout',
 	component: GridLayout,
 } as Meta;
 

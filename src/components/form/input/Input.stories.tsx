@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react';
 import { Input, IInputProps } from './Input';
 
 export default {
-	title: 'Components/Input',
+	title: 'Components/Form/Input',
 	component: Input,
 	argTypes: {
 		onChange: { action: 'Changed.' },

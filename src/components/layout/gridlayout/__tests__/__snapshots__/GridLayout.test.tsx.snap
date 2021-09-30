@@ -10,7 +10,7 @@ Object {
         data-testid="test-GridLayout"
       >
         <div
-          class="sc-dlfnuX bUpyTh Rover undefined"
+          class="sc-dlfnuX loqTvG Rover undefined"
           data-testid="test-Rover"
           direction="N"
         />
@@ -329,7 +329,7 @@ Object {
       data-testid="test-GridLayout"
     >
       <div
-        class="sc-dlfnuX bUpyTh Rover undefined"
+        class="sc-dlfnuX loqTvG Rover undefined"
         data-testid="test-Rover"
         direction="N"
       />

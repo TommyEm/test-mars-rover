@@ -15,8 +15,11 @@ export function reducer(state: IAppState, action: IAction) {
 			break;
 
 		case actions.UPDATE_COMMANDS:
-			console.log('REDUCER', action.payload);
 			newState.commands = action.payload;
+			break;
+
+		case actions.RESET_COMMANDS:
+			newState.commands = '';
 			break;
 
 		default:

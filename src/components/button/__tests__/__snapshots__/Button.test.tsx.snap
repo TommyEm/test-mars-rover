@@ -5,19 +5,21 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="sc-bdfBQB brVIOO Rover undefined"
-        data-testid="test-Rover"
-        direction="N"
-      />
+      <button
+        class="sc-bdfBQB cfbvzk Button undefined"
+        data-testid="test-Button"
+      >
+        Button
+      </button>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="sc-bdfBQB brVIOO Rover undefined"
-      data-testid="test-Rover"
-      direction="N"
-    />
+    <button
+      class="sc-bdfBQB cfbvzk Button undefined"
+      data-testid="test-Button"
+    >
+      Button
+    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

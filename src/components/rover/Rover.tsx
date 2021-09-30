@@ -21,8 +21,6 @@ export const Rover: React.FC<IRoverProps> = ({
 			direction={direction}
 			position={position}
 			data-testid='test-Rover'
-		>
-
-		</StyledRover>
+		/>
 	);
 }

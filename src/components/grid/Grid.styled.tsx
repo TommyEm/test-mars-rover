@@ -1,10 +1,9 @@
 import styled from 'styled-components';
+import { CELL_SIZE } from '../../constants';
 import designTokens from '../../design-tokens/build/ts';
 
 
 const { color, size } = designTokens;
-
-export const CELL_SIZE = 50;
 
 export const StyledGrid = styled.div<{ size: number }>`
 	display: grid;

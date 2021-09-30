@@ -6,18 +6,58 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdfBQB brVIOO Rover undefined"
-        data-testid="test-Rover"
-        direction="N"
-      />
+        class="sc-bdfBQB cfbvzk CommandsLayout undefined"
+        data-testid="test-CommandsLayout"
+      >
+        <label
+          class="sc-gsTEea dmuLvQ Label undefined"
+          data-testid="test-Label"
+        >
+          Enter some commands:
+        </label>
+        <input
+          class="sc-dlfnuX fOGRyI Input undefined"
+          data-testid="test-Input"
+          id="commands"
+          name="commands"
+          type="text"
+          value=""
+        />
+        <button
+          class="sc-hKgJUU eEtQGX Button undefined"
+          data-testid="test-Button"
+        >
+          Reset
+        </button>
+      </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bdfBQB brVIOO Rover undefined"
-      data-testid="test-Rover"
-      direction="N"
-    />
+      class="sc-bdfBQB cfbvzk CommandsLayout undefined"
+      data-testid="test-CommandsLayout"
+    >
+      <label
+        class="sc-gsTEea dmuLvQ Label undefined"
+        data-testid="test-Label"
+      >
+        Enter some commands:
+      </label>
+      <input
+        class="sc-dlfnuX fOGRyI Input undefined"
+        data-testid="test-Input"
+        id="commands"
+        name="commands"
+        type="text"
+        value=""
+      />
+      <button
+        class="sc-hKgJUU eEtQGX Button undefined"
+        data-testid="test-Button"
+      >
+        Reset
+      </button>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
