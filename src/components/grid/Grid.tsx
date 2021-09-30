@@ -16,7 +16,7 @@ export const Grid: React.FC<IGridProps> = ({
 	let cells = [];
 
 	for (let i = 1; i <= (size * size); i++) {
-		cells.push(<div className='Grid-cell'></div>);
+		cells.push(<div key={`cell-${i}`} className='Grid-cell'></div>);
 	}
 
 	return (

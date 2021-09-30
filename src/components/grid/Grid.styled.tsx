@@ -4,7 +4,7 @@ import designTokens from '../../design-tokens/build/ts';
 
 const { color, size } = designTokens;
 
-const CELL_SIZE = 50;
+export const CELL_SIZE = 50;
 
 export const StyledGrid = styled.div<{ size: number }>`
 	display: grid;
@@ -15,6 +15,6 @@ export const StyledGrid = styled.div<{ size: number }>`
 	.Grid-cell {
 		width: ${CELL_SIZE}px;
 		height: ${CELL_SIZE}px;
-		border: 1px solid white;
+		border: 1px solid ${color.neutral.s300.value};
 	}
 `;

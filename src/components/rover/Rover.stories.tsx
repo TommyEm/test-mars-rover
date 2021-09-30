@@ -13,5 +13,9 @@ const Template: Story<IRoverProps> = args => <Rover {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-
+	direction: 'N',
+	position: {
+		x: 0,
+		y: 0,
+	},
 };

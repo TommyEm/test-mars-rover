@@ -1,6 +1,16 @@
 import { createGlobalStyle } from 'styled-components';
+import designTokens from '../design-tokens/build/ts';
+
+
+const { color } = designTokens;
 
 export const GlobalStyle = createGlobalStyle`
+	*,
+	*::before,
+	*::after {
+		box-sizing: border-box;
+	}
+
 	body {
 		margin: 0;
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -8,5 +18,7 @@ export const GlobalStyle = createGlobalStyle`
 			sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
+		background-color: ${color.neutral.s900.value};
+		color: ${color.neutral.s0.value};
 	}
 `;
