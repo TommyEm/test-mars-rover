@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 30 Sep 2021 10:58:27 GMT
+ * Generated on Sat, 02 Oct 2021 15:07:02 GMT
  */
 
 module.exports = {
@@ -489,67 +489,156 @@ module.exports = {
   },
   "size": {
     "font": {
-      "small": {
+      "s1": {
         "value": "0.75rem",
-        "comment": "the small size of the font",
         "filePath": "properties/size/font.json",
         "isSource": true,
         "original": {
-          "value": "0.75",
-          "comment": "the small size of the font"
+          "value": "0.75"
         },
-        "name": "SizeFontSmall",
+        "name": "SizeFontS1",
         "attributes": {
           "category": "size",
           "type": "font",
-          "item": "small"
+          "item": "s1"
         },
         "path": [
           "size",
           "font",
-          "small"
+          "s1"
         ]
       },
-      "medium": {
+      "s2": {
         "value": "1rem",
-        "comment": "the medium size of the font",
         "filePath": "properties/size/font.json",
         "isSource": true,
         "original": {
-          "value": "1",
-          "comment": "the medium size of the font"
+          "value": "1"
         },
-        "name": "SizeFontMedium",
+        "name": "SizeFontS2",
         "attributes": {
           "category": "size",
           "type": "font",
-          "item": "medium"
+          "item": "s2"
         },
         "path": [
           "size",
           "font",
-          "medium"
+          "s2"
         ]
       },
-      "large": {
-        "value": "2rem",
-        "comment": "the large size of the font",
+      "s3": {
+        "value": "1.25rem",
         "filePath": "properties/size/font.json",
         "isSource": true,
         "original": {
-          "value": "2",
-          "comment": "the large size of the font"
+          "value": "1.25"
         },
-        "name": "SizeFontLarge",
+        "name": "SizeFontS3",
         "attributes": {
           "category": "size",
           "type": "font",
-          "item": "large"
+          "item": "s3"
         },
         "path": [
           "size",
           "font",
-          "large"
+          "s3"
+        ]
+      },
+      "s4": {
+        "value": "1.5rem",
+        "filePath": "properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": "1.5"
+        },
+        "name": "SizeFontS4",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "s4"
+        },
+        "path": [
+          "size",
+          "font",
+          "s4"
+        ]
+      },
+      "s5": {
+        "value": "1.75rem",
+        "filePath": "properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": "1.75"
+        },
+        "name": "SizeFontS5",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "s5"
+        },
+        "path": [
+          "size",
+          "font",
+          "s5"
+        ]
+      },
+      "s6": {
+        "value": "2rem",
+        "filePath": "properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": "2"
+        },
+        "name": "SizeFontS6",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "s6"
+        },
+        "path": [
+          "size",
+          "font",
+          "s6"
+        ]
+      },
+      "s7": {
+        "value": "2.25rem",
+        "filePath": "properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": "2.25"
+        },
+        "name": "SizeFontS7",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "s7"
+        },
+        "path": [
+          "size",
+          "font",
+          "s7"
+        ]
+      },
+      "s8": {
+        "value": "2.5rem",
+        "filePath": "properties/size/font.json",
+        "isSource": true,
+        "original": {
+          "value": "2.5"
+        },
+        "name": "SizeFontS8",
+        "attributes": {
+          "category": "size",
+          "type": "font",
+          "item": "s8"
+        },
+        "path": [
+          "size",
+          "font",
+          "s8"
         ]
       },
       "base": {
@@ -558,7 +647,7 @@ module.exports = {
         "filePath": "properties/size/font.json",
         "isSource": true,
         "original": {
-          "value": "{size.font.medium.value}",
+          "value": "{size.font.s2.value}",
           "comment": "the base size of the font"
         },
         "name": "SizeFontBase",
@@ -571,6 +660,425 @@ module.exports = {
           "size",
           "font",
           "base"
+        ]
+      },
+      "lineheight": {
+        "s1": {
+          "value": "1rem",
+          "filePath": "properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": "1"
+          },
+          "name": "SizeFontLineheightS1",
+          "attributes": {
+            "category": "size",
+            "type": "font",
+            "item": "lineheight",
+            "subitem": "s1"
+          },
+          "path": [
+            "size",
+            "font",
+            "lineheight",
+            "s1"
+          ]
+        },
+        "s2": {
+          "value": "1rem",
+          "filePath": "properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": "1"
+          },
+          "name": "SizeFontLineheightS2",
+          "attributes": {
+            "category": "size",
+            "type": "font",
+            "item": "lineheight",
+            "subitem": "s2"
+          },
+          "path": [
+            "size",
+            "font",
+            "lineheight",
+            "s2"
+          ]
+        },
+        "s3": {
+          "value": "1rem",
+          "filePath": "properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": "1"
+          },
+          "name": "SizeFontLineheightS3",
+          "attributes": {
+            "category": "size",
+            "type": "font",
+            "item": "lineheight",
+            "subitem": "s3"
+          },
+          "path": [
+            "size",
+            "font",
+            "lineheight",
+            "s3"
+          ]
+        },
+        "s4": {
+          "value": "1.5rem",
+          "filePath": "properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": "1.5"
+          },
+          "name": "SizeFontLineheightS4",
+          "attributes": {
+            "category": "size",
+            "type": "font",
+            "item": "lineheight",
+            "subitem": "s4"
+          },
+          "path": [
+            "size",
+            "font",
+            "lineheight",
+            "s4"
+          ]
+        },
+        "s5": {
+          "value": "2rem",
+          "filePath": "properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": "2"
+          },
+          "name": "SizeFontLineheightS5",
+          "attributes": {
+            "category": "size",
+            "type": "font",
+            "item": "lineheight",
+            "subitem": "s5"
+          },
+          "path": [
+            "size",
+            "font",
+            "lineheight",
+            "s5"
+          ]
+        },
+        "s6": {
+          "value": "2rem",
+          "filePath": "properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": "2"
+          },
+          "name": "SizeFontLineheightS6",
+          "attributes": {
+            "category": "size",
+            "type": "font",
+            "item": "lineheight",
+            "subitem": "s6"
+          },
+          "path": [
+            "size",
+            "font",
+            "lineheight",
+            "s6"
+          ]
+        },
+        "s7": {
+          "value": "2rem",
+          "filePath": "properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": "2"
+          },
+          "name": "SizeFontLineheightS7",
+          "attributes": {
+            "category": "size",
+            "type": "font",
+            "item": "lineheight",
+            "subitem": "s7"
+          },
+          "path": [
+            "size",
+            "font",
+            "lineheight",
+            "s7"
+          ]
+        },
+        "s8": {
+          "value": "2rem",
+          "filePath": "properties/size/font.json",
+          "isSource": true,
+          "original": {
+            "value": "2"
+          },
+          "name": "SizeFontLineheightS8",
+          "attributes": {
+            "category": "size",
+            "type": "font",
+            "item": "lineheight",
+            "subitem": "s8"
+          },
+          "path": [
+            "size",
+            "font",
+            "lineheight",
+            "s8"
+          ]
+        }
+      }
+    },
+    "space": {
+      "s0": {
+        "value": "0rem",
+        "filePath": "properties/size/space.json",
+        "isSource": true,
+        "original": {
+          "value": "0"
+        },
+        "name": "SizeSpaceS0",
+        "attributes": {
+          "category": "size",
+          "type": "space",
+          "item": "s0"
+        },
+        "path": [
+          "size",
+          "space",
+          "s0"
+        ]
+      },
+      "s1": {
+        "value": "0.25rem",
+        "filePath": "properties/size/space.json",
+        "isSource": true,
+        "original": {
+          "value": "0.25"
+        },
+        "name": "SizeSpaceS1",
+        "attributes": {
+          "category": "size",
+          "type": "space",
+          "item": "s1"
+        },
+        "path": [
+          "size",
+          "space",
+          "s1"
+        ]
+      },
+      "s2": {
+        "value": "0.5rem",
+        "filePath": "properties/size/space.json",
+        "isSource": true,
+        "original": {
+          "value": "0.5"
+        },
+        "name": "SizeSpaceS2",
+        "attributes": {
+          "category": "size",
+          "type": "space",
+          "item": "s2"
+        },
+        "path": [
+          "size",
+          "space",
+          "s2"
+        ]
+      },
+      "s3": {
+        "value": "0.75rem",
+        "filePath": "properties/size/space.json",
+        "isSource": true,
+        "original": {
+          "value": "0.75"
+        },
+        "name": "SizeSpaceS3",
+        "attributes": {
+          "category": "size",
+          "type": "space",
+          "item": "s3"
+        },
+        "path": [
+          "size",
+          "space",
+          "s3"
+        ]
+      },
+      "s4": {
+        "value": "1rem",
+        "filePath": "properties/size/space.json",
+        "isSource": true,
+        "original": {
+          "value": "1"
+        },
+        "name": "SizeSpaceS4",
+        "attributes": {
+          "category": "size",
+          "type": "space",
+          "item": "s4"
+        },
+        "path": [
+          "size",
+          "space",
+          "s4"
+        ]
+      },
+      "s5": {
+        "value": "1.25rem",
+        "filePath": "properties/size/space.json",
+        "isSource": true,
+        "original": {
+          "value": "1.25"
+        },
+        "name": "SizeSpaceS5",
+        "attributes": {
+          "category": "size",
+          "type": "space",
+          "item": "s5"
+        },
+        "path": [
+          "size",
+          "space",
+          "s5"
+        ]
+      },
+      "s6": {
+        "value": "1.5rem",
+        "filePath": "properties/size/space.json",
+        "isSource": true,
+        "original": {
+          "value": "1.5"
+        },
+        "name": "SizeSpaceS6",
+        "attributes": {
+          "category": "size",
+          "type": "space",
+          "item": "s6"
+        },
+        "path": [
+          "size",
+          "space",
+          "s6"
+        ]
+      },
+      "s7": {
+        "value": "1.75rem",
+        "filePath": "properties/size/space.json",
+        "isSource": true,
+        "original": {
+          "value": "1.75"
+        },
+        "name": "SizeSpaceS7",
+        "attributes": {
+          "category": "size",
+          "type": "space",
+          "item": "s7"
+        },
+        "path": [
+          "size",
+          "space",
+          "s7"
+        ]
+      },
+      "s8": {
+        "value": "2rem",
+        "filePath": "properties/size/space.json",
+        "isSource": true,
+        "original": {
+          "value": "2"
+        },
+        "name": "SizeSpaceS8",
+        "attributes": {
+          "category": "size",
+          "type": "space",
+          "item": "s8"
+        },
+        "path": [
+          "size",
+          "space",
+          "s8"
+        ]
+      },
+      "s9": {
+        "value": "2.25rem",
+        "filePath": "properties/size/space.json",
+        "isSource": true,
+        "original": {
+          "value": "2.25"
+        },
+        "name": "SizeSpaceS9",
+        "attributes": {
+          "category": "size",
+          "type": "space",
+          "item": "s9"
+        },
+        "path": [
+          "size",
+          "space",
+          "s9"
+        ]
+      },
+      "s10": {
+        "value": "2.5rem",
+        "filePath": "properties/size/space.json",
+        "isSource": true,
+        "original": {
+          "value": "2.5"
+        },
+        "name": "SizeSpaceS10",
+        "attributes": {
+          "category": "size",
+          "type": "space",
+          "item": "s10"
+        },
+        "path": [
+          "size",
+          "space",
+          "s10"
+        ]
+      },
+      "s11": {
+        "value": "2.75rem",
+        "filePath": "properties/size/space.json",
+        "isSource": true,
+        "original": {
+          "value": "2.75"
+        },
+        "name": "SizeSpaceS11",
+        "attributes": {
+          "category": "size",
+          "type": "space",
+          "item": "s11"
+        },
+        "path": [
+          "size",
+          "space",
+          "s11"
+        ]
+      },
+      "s12": {
+        "value": "3rem",
+        "filePath": "properties/size/space.json",
+        "isSource": true,
+        "original": {
+          "value": "3"
+        },
+        "name": "SizeSpaceS12",
+        "attributes": {
+          "category": "size",
+          "type": "space",
+          "item": "s12"
+        },
+        "path": [
+          "size",
+          "space",
+          "s12"
         ]
       }
     }

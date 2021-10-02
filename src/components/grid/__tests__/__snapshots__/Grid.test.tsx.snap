@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdfBQB gOdAeI Grid undefined"
+        class="sc-bdfBQB gImMBy Grid undefined"
         data-testid="test-Grid"
         size="10"
       >
@@ -315,7 +315,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdfBQB gOdAeI Grid undefined"
+      class="sc-bdfBQB gImMBy Grid undefined"
       data-testid="test-Grid"
       size="10"
     >

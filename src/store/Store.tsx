@@ -5,7 +5,7 @@ import * as constants from '../constants';
 
 
 
-const initialState: IAppState = {
+export const initialState: IAppState = {
 	commands: '',
 	rover: {
 		direction: constants.ROVER_DEFAULT_DIRECTION,

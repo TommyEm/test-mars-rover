@@ -1,6 +1,6 @@
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from '../src/style/GlobalStyle';
-import { themeModes } from '../src/style/themes';
+import { themeDarkMode } from '../src/style/themes';
 
 
 export const parameters = {
@@ -18,7 +18,7 @@ const withThemeProvider = (Story, context) => {
 	return (
 		<>
 			<GlobalStyle />
-			<ThemeProvider theme={themeModes.dark}>
+			<ThemeProvider theme={themeDarkMode}>
 				<Story {...context} />
 			</ThemeProvider>
 		</>

@@ -1,4 +1,5 @@
 import { IAction, IAppState } from "../types/store";
+import { initialState } from "./Store";
 import * as actions from '../store/actionTypes';
 
 
@@ -19,7 +20,9 @@ export function reducer(state: IAppState, action: IAction) {
 			break;
 
 		case actions.RESET_COMMANDS:
-			newState.commands = '';
+			newState = { ...initialState };
+			console.log(newState);
+
 			break;
 
 		default:

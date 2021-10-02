@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 import { CELL_SIZE } from '../../constants';
-import designTokens from '../../design-tokens/build/ts';
 
-
-const { color, size } = designTokens;
 
 export const StyledGrid = styled.div<{ size: number }>`
 	display: grid;
@@ -11,9 +8,13 @@ export const StyledGrid = styled.div<{ size: number }>`
 	width: ${props => props.size * CELL_SIZE}px;
 	height: ${props => props.size * CELL_SIZE}px;
 
+	&,
+	& .Grid-cell {
+		border: 1px solid ${props => props.theme.foreground.accent};
+	}
+
 	.Grid-cell {
 		width: ${CELL_SIZE}px;
 		height: ${CELL_SIZE}px;
-		border: 1px solid ${color.neutral.s300.value};
 	}
 `;

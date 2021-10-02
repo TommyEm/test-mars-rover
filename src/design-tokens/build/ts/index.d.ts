@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 30 Sep 2021 10:58:27 GMT
+ * Generated on Sat, 02 Oct 2021 15:07:02 GMT
  */
 
 export default tokens;
@@ -57,10 +57,40 @@ declare const tokens: {
   },
   "size": {
     "font": {
-      "small": DesignToken,
-      "medium": DesignToken,
-      "large": DesignToken,
-      "base": DesignToken
+      "s1": DesignToken,
+      "s2": DesignToken,
+      "s3": DesignToken,
+      "s4": DesignToken,
+      "s5": DesignToken,
+      "s6": DesignToken,
+      "s7": DesignToken,
+      "s8": DesignToken,
+      "base": DesignToken,
+      "lineheight": {
+        "s1": DesignToken,
+        "s2": DesignToken,
+        "s3": DesignToken,
+        "s4": DesignToken,
+        "s5": DesignToken,
+        "s6": DesignToken,
+        "s7": DesignToken,
+        "s8": DesignToken
+      }
+    },
+    "space": {
+      "s0": DesignToken,
+      "s1": DesignToken,
+      "s2": DesignToken,
+      "s3": DesignToken,
+      "s4": DesignToken,
+      "s5": DesignToken,
+      "s6": DesignToken,
+      "s7": DesignToken,
+      "s8": DesignToken,
+      "s9": DesignToken,
+      "s10": DesignToken,
+      "s11": DesignToken,
+      "s12": DesignToken
     }
   }
 }

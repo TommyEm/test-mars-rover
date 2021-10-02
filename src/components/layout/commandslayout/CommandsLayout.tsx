@@ -34,12 +34,14 @@ export const CommandsLayout: React.FC<ICommandsLayoutProps> = ({
 			data-testid='test-CommandsLayout'
 		>
 			<Label forHtml='commands'>Enter some commands:</Label>
-			<Input
-				name='commands'
-				value={commands}
-				onChange={e => handleChangeInput(e.currentTarget.value)}
-			/>
-			<Button onClick={handleResetInput}>Reset</Button>
+			<div className='CommandsLayout-input'>
+				<Input
+					name='commands'
+					value={commands}
+					onChange={e => handleChangeInput(e.currentTarget.value)}
+				/>
+				<Button onClick={handleResetInput}>Reset</Button>
+			</div>
 		</StyledCommandsLayout>
 	);
 }

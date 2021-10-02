@@ -18,7 +18,8 @@ export const GlobalStyle = createGlobalStyle`
 			sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
-		background-color: ${color.neutral.s900.value};
-		color: ${color.neutral.s0.value};
+
+		background-color: ${props => props.theme.background.primary};
+		color: ${props => props.theme.foreground.primary};
 	}
 `;

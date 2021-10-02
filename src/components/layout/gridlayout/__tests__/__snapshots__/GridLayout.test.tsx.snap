@@ -15,7 +15,7 @@ Object {
           direction="N"
         />
         <div
-          class="sc-gsTEea jyudVg Grid undefined"
+          class="sc-gsTEea VTVfW Grid undefined"
           data-testid="test-Grid"
           size="10"
         >
@@ -334,7 +334,7 @@ Object {
         direction="N"
       />
       <div
-        class="sc-gsTEea jyudVg Grid undefined"
+        class="sc-gsTEea VTVfW Grid undefined"
         data-testid="test-Grid"
         size="10"
       >

@@ -14,7 +14,7 @@ const { Default } = composeStories(stories);
 afterEach(cleanup);
 const storyComponent = <Default />;
 
-it('should render ...', () => {
+it('should render a button', () => {
 	render(storyComponent);
 	expect(screen.getByTestId('test-Button')).toBeVisible();
 });
@@ -22,4 +22,9 @@ it('should render ...', () => {
 it('matches snapshot', () => {
 	const tree = render(storyComponent);
 	expect(tree).toMatchSnapshot();
+});
+
+it('should render an active button', () => {
+	render(storyComponent);
+	expect(screen.getByTestId('test-Button')).toHaveClass('mod-active');
 });
