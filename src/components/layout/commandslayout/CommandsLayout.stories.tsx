@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react';
 import { CommandsLayout, ICommandsLayoutProps } from './CommandsLayout';
 
 export default {
-	title: 'Components/Layout/CommandsLayout',
+	title: 'Layout/CommandsLayout',
 	component: CommandsLayout,
 } as Meta;
 

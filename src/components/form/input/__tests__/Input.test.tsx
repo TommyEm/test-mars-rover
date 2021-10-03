@@ -1,6 +1,7 @@
 import React from 'react';
 import {
 	cleanup,
+	fireEvent,
 	render,
 	screen
 } from '@testing-library/react';
@@ -14,7 +15,7 @@ const { Default } = composeStories(stories);
 afterEach(cleanup);
 const storyComponent = <Default />;
 
-it('should render ...', () => {
+it('should render an input field', () => {
 	render(storyComponent);
 	expect(screen.getByTestId('test-Input')).toBeVisible();
 });
@@ -22,4 +23,11 @@ it('should render ...', () => {
 it('matches snapshot', () => {
 	const tree = render(storyComponent);
 	expect(tree).toMatchSnapshot();
+});
+
+it('calls "onChange" prop on input change', () => {
+	const onChange = jest.fn();
+	render(<Default onChange={onChange} />);
+	fireEvent.change(screen.getByTestId('test-Input'), { target: { value: 'Test input' }});
+	expect(onChange).toHaveBeenCalled();
 });

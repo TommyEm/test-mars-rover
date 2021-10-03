@@ -23,3 +23,8 @@ it('matches snapshot', () => {
 	const tree = render(storyComponent);
 	expect(tree).toMatchSnapshot();
 });
+
+it('should create a grid of 25 cells', () => {
+	render(<Default size={5} />);
+	expect(screen.getByTestId('test-Grid').children.length).toBe(25);
+});

@@ -6,17 +6,93 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdfBQB cfbvzk CommandsLayout undefined"
+        class="sc-bdfBQB goExrx CommandsLayout undefined"
         data-testid="test-CommandsLayout"
       >
         <label
-          class="sc-gsTEea dmuLvQ Label undefined"
+          class="sc-gsTEea jgTHUl Label undefined"
           data-testid="test-Label"
         >
           Enter some commands:
         </label>
+        <div
+          class="CommandsLayout-input"
+        >
+          <input
+            class="sc-dlfnuX kVhtmp Input undefined"
+            data-testid="test-Input"
+            id="commands"
+            name="commands"
+            type="text"
+            value=""
+          />
+          <button
+            class="sc-hKgJUU kGjTEm Button"
+            data-testid="test-Button"
+          >
+            Reset
+          </button>
+        </div>
+        <div
+          class="CommandsLayout-help"
+        >
+          <h2>
+            Commands list
+          </h2>
+          <dl
+            class="CommandsLayout-command-list"
+          >
+            <dt
+              class="CommandsLayout-command"
+            >
+              f
+            </dt>
+            <dd
+              class="CommandsLayout-desc"
+            >
+              Move forward
+            </dd>
+            <dt
+              class="CommandsLayout-command"
+            >
+              l
+            </dt>
+            <dd
+              class="CommandsLayout-desc"
+            >
+              Rotate left
+            </dd>
+            <dt
+              class="CommandsLayout-command"
+            >
+              r
+            </dt>
+            <dd
+              class="CommandsLayout-desc"
+            >
+              Rotate right
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdfBQB goExrx CommandsLayout undefined"
+      data-testid="test-CommandsLayout"
+    >
+      <label
+        class="sc-gsTEea jgTHUl Label undefined"
+        data-testid="test-Label"
+      >
+        Enter some commands:
+      </label>
+      <div
+        class="CommandsLayout-input"
+      >
         <input
-          class="sc-dlfnuX fOGRyI Input undefined"
+          class="sc-dlfnuX kVhtmp Input undefined"
           data-testid="test-Input"
           id="commands"
           name="commands"
@@ -24,39 +100,53 @@ Object {
           value=""
         />
         <button
-          class="sc-hKgJUU eEtQGX Button undefined"
+          class="sc-hKgJUU kGjTEm Button"
           data-testid="test-Button"
         >
           Reset
         </button>
       </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="sc-bdfBQB cfbvzk CommandsLayout undefined"
-      data-testid="test-CommandsLayout"
-    >
-      <label
-        class="sc-gsTEea dmuLvQ Label undefined"
-        data-testid="test-Label"
+      <div
+        class="CommandsLayout-help"
       >
-        Enter some commands:
-      </label>
-      <input
-        class="sc-dlfnuX fOGRyI Input undefined"
-        data-testid="test-Input"
-        id="commands"
-        name="commands"
-        type="text"
-        value=""
-      />
-      <button
-        class="sc-hKgJUU eEtQGX Button undefined"
-        data-testid="test-Button"
-      >
-        Reset
-      </button>
+        <h2>
+          Commands list
+        </h2>
+        <dl
+          class="CommandsLayout-command-list"
+        >
+          <dt
+            class="CommandsLayout-command"
+          >
+            f
+          </dt>
+          <dd
+            class="CommandsLayout-desc"
+          >
+            Move forward
+          </dd>
+          <dt
+            class="CommandsLayout-command"
+          >
+            l
+          </dt>
+          <dd
+            class="CommandsLayout-desc"
+          >
+            Rotate left
+          </dd>
+          <dt
+            class="CommandsLayout-command"
+          >
+            r
+          </dt>
+          <dd
+            class="CommandsLayout-desc"
+          >
+            Rotate right
+          </dd>
+        </dl>
+      </div>
     </div>
   </div>,
   "debug": [Function],

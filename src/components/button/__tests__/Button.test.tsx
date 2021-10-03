@@ -1,6 +1,7 @@
 import React from 'react';
 import {
 	cleanup,
+	fireEvent,
 	render,
 	screen
 } from '@testing-library/react';
@@ -8,7 +9,7 @@ import { composeStories } from '@storybook/testing-react';
 
 import * as stories from '../Button.stories';
 
-const { Default } = composeStories(stories);
+const { Default, Active } = composeStories(stories);
 
 
 afterEach(cleanup);
@@ -24,7 +25,14 @@ it('matches snapshot', () => {
 	expect(tree).toMatchSnapshot();
 });
 
+it('calls "onClick" prop on button click', () => {
+	const onClick = jest.fn();
+	render(<Default onClick={onClick} />);
+	fireEvent.click(screen.getByText(/Button/i));
+	expect(onClick).toHaveBeenCalled();
+});
+
 it('should render an active button', () => {
-	render(storyComponent);
+	render(<Active />);
 	expect(screen.getByTestId('test-Button')).toHaveClass('mod-active');
 });

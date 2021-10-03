@@ -9,7 +9,6 @@ import { AppContext } from '../../../store/Store';
 
 export interface IGridLayoutProps {
 	className?: string;
-	commands: string;
 }
 
 export const GridLayout: React.FC<IGridLayoutProps> = React.memo(({

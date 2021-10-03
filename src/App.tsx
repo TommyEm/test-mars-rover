@@ -1,8 +1,7 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { themeDarkMode, themeLightMode } from './style/themes';
 
-import { AppContext } from './store/Store';
 import { StyledApp } from './App.styled';
 import { Title } from './components/title/Title';
 import { GridLayout } from './components/layout/gridlayout/GridLayout';
@@ -12,7 +11,6 @@ import { GlobalStyle } from './style/GlobalStyle';
 
 
 function App() {
-	const { state: { commands } } = useContext(AppContext);
 	const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
 	const [theme, setTheme] = useState(themeDarkMode);
 
@@ -27,10 +25,12 @@ function App() {
 			<StyledApp className='App'>
 				<header className='App-header'>
 					<Title>Mars Rover</Title>
-					<Button onClick={toggleThemeMode}>Toggle</Button>
+					<Button onClick={toggleThemeMode}>
+						{isDarkMode ? 'Light mode' : 'Dark mode'}
+					</Button>
 				</header>
 
-				<GridLayout commands={commands} />
+				<GridLayout />
 
 				<CommandsLayout />
 			</StyledApp>
