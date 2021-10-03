@@ -1,8 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import designTokens from '../design-tokens/build/ts';
 
-
-const { color } = designTokens;
 
 export const GlobalStyle = createGlobalStyle`
 	*,

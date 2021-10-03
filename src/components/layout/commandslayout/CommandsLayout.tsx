@@ -52,13 +52,14 @@ export const CommandsLayout: React.FC<ICommandsLayoutProps> = ({
 			</div>
 
 			<div className='CommandsLayout-help'>
-				<dl>
+				<h2>Commands list</h2>
+				<dl className='CommandsLayout-command-list'>
 					<dt className='CommandsLayout-command'>f</dt>
-					<dd>orward</dd>
-					<dt className='CommandsLayout-command'></dt>
-					<dd></dd>
-					<dt className='CommandsLayout-command'></dt>
-					<dd></dd>
+					<dd className='CommandsLayout-desc'>Move forward</dd>
+					<dt className='CommandsLayout-command'>l</dt>
+					<dd className='CommandsLayout-desc'>Rotate left</dd>
+					<dt className='CommandsLayout-command'>r</dt>
+					<dd className='CommandsLayout-desc'>Rotate right</dd>
 				</dl>
 			</div>
 		</StyledCommandsLayout>

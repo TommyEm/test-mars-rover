@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { themeDarkMode, themeLightMode } from './style/themes';
 
 import { AppContext } from './store/Store';
+import { StyledApp } from './App.styled';
 import { Title } from './components/title/Title';
 import { GridLayout } from './components/layout/gridlayout/GridLayout';
 import { CommandsLayout } from './components/layout/commandslayout/CommandsLayout';
@@ -11,7 +12,7 @@ import { GlobalStyle } from './style/GlobalStyle';
 
 
 function App() {
-	const { state: { commands }, dispatch } = useContext(AppContext);
+	const { state: { commands } } = useContext(AppContext);
 	const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
 	const [theme, setTheme] = useState(themeDarkMode);
 
@@ -23,15 +24,16 @@ function App() {
 	return (
 		<ThemeProvider theme={theme}>
 			<GlobalStyle />
-			<div className='App'>
-				<Title>Mars Rover</Title>
-
-				<Button onClick={toggleThemeMode}>Toggle</Button>
+			<StyledApp className='App'>
+				<header className='App-header'>
+					<Title>Mars Rover</Title>
+					<Button onClick={toggleThemeMode}>Toggle</Button>
+				</header>
 
 				<GridLayout commands={commands} />
 
 				<CommandsLayout />
-			</div>
+			</StyledApp>
 		</ThemeProvider>
 	);
 }

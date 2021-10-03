@@ -22,11 +22,15 @@ export const GridLayout: React.FC<IGridLayoutProps> = React.memo(({
 			className={`GridLayout ${className}`}
 			data-testid='test-GridLayout'
 		>
-			<Rover
-				direction={rover.direction}
-				position={rover.position}
-			/>
-			<Grid size={constants.GRID_SIZE} />
+			<div className='GridLayout-content'>
+				<div className='GridLayout-rover'>
+					<Rover
+						direction={rover.direction}
+						position={rover.position}
+					/>
+				</div>
+				<Grid size={constants.GRID_SIZE} />
+			</div>
 		</StyledGridLayout>
 	);
 });
