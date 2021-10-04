@@ -32,7 +32,9 @@ export const AppLayout = () => {
 
 				<GridLayout />
 
-				<CommandsLayout />
+				<div className='App-commands'>
+					<CommandsLayout />
+				</div>
 			</StyledApp>
 		</ThemeProvider>
 	);

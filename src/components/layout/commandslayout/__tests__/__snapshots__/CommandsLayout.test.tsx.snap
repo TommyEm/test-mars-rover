@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdfBQB goExrx CommandsLayout undefined"
+        class="sc-bdfBQB cOziRm CommandsLayout undefined"
         data-testid="test-CommandsLayout"
       >
         <label
@@ -79,7 +79,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdfBQB goExrx CommandsLayout undefined"
+      class="sc-bdfBQB cOziRm CommandsLayout undefined"
       data-testid="test-CommandsLayout"
     >
       <label

@@ -6,6 +6,7 @@ export const StyledApp = styled.div`
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	overflow-x: hidden;
 
 	@media only screen and (min-height: 700px) {
 		height: 100vh;
@@ -19,5 +20,10 @@ export const StyledApp = styled.div`
 		display: flex;
 		justify-content: space-between;
 		width: 100%;
+	}
+
+	.App-commands {
+		position: relative;
+		z-index: 20;
 	}
 `;

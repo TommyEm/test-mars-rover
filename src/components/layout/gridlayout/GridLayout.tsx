@@ -28,7 +28,9 @@ export const GridLayout: React.FC<IGridLayoutProps> = React.memo(({
 						position={rover.position}
 					/>
 				</div>
-				<Grid size={constants.GRID_SIZE} />
+				<div className='GridLayout-grid'>
+					<Grid size={constants.GRID_SIZE} />
+				</div>
 			</div>
 		</StyledGridLayout>
 	);

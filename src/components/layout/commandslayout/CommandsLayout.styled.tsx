@@ -24,14 +24,21 @@ export const StyledCommandsLayout = styled.div`
 		justify-content: space-between;
 		margin-top: ${size.space.s8.value};
 		color: ${props => props.theme.foreground.secondary};
+
+		@media only screen and (max-width: 379px) {
+			flex-direction: column;
+		}
 	}
 
 	.CommandsLayout-command-list {
 		display: grid;
 		grid-template-columns: 1rem auto;
 		grid-gap: ${size.space.s4.value};
-		margin-left: ${size.space.s10.value};
-		padding-top: ${size.space.s3.value};
+
+		@media only screen and (min-width: 380px) {
+			margin-left: ${size.space.s10.value};
+			padding-top: ${size.space.s3.value};
+		}
 	}
 
 	.CommandsLayout-command {
