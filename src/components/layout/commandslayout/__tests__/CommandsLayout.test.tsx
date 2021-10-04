@@ -1,7 +1,7 @@
 import React from 'react';
 import {
 	cleanup,
-	// fireEvent,
+	fireEvent,
 	render,
 	screen
 } from '@testing-library/react';
@@ -18,7 +18,8 @@ const storyComponent = <Store><Default /></Store>;
 
 it('should render a commands layout', () => {
 	render(storyComponent);
-	expect(screen.getByTestId('test-CommandsLayout')).toBeVisible();
+	const input = screen.getByTestId('test-CommandsLayout');
+	expect(input).toBeVisible();
 });
 
 it('matches snapshot', () => {
@@ -26,8 +27,9 @@ it('matches snapshot', () => {
 	expect(tree).toMatchSnapshot();
 });
 
-// it('should update the store', () => {
-// 	const onChange = jest.fn();
-// 	render(storyComponent);
-// 	fireEvent.change(screen.getByTestId('test-Input'), { target: { value: 'f' } });
-// });
+it('should update the store', () => {
+	render(storyComponent);
+	const input = screen.getByTestId('test-Input');
+	fireEvent.change(input, { target: { value: 'f' } });
+	expect(input).toHaveValue('f');
+});

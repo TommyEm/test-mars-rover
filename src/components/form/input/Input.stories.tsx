@@ -16,5 +16,5 @@ const Template: Story<IInputProps> = args => <Input {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-	name: 'input1',
+	name: 'input',
 };

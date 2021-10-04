@@ -17,7 +17,9 @@ const storyComponent = <Default />;
 
 it('should render an input field', () => {
 	render(storyComponent);
-	expect(screen.getByTestId('test-Input')).toBeVisible();
+	const input = screen.getByTestId('test-Input');
+	expect(input).toBeVisible();
+	expect(input).toHaveAttribute('name', 'input');
 });
 
 it('matches snapshot', () => {

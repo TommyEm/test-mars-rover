@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react';
 import { CommandsLayout, ICommandsLayoutProps } from './CommandsLayout';
 
 export default {
-	title: 'Layout/CommandsLayout',
+	title: 'Layout/Commands',
 	component: CommandsLayout,
 } as Meta;
 
@@ -12,6 +12,3 @@ export default {
 const Template: Story<ICommandsLayoutProps> = args => <CommandsLayout {...args} />;
 
 export const Default = Template.bind({});
-Default.args = {
-
-};

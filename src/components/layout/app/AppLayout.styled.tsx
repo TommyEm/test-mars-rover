@@ -18,7 +18,6 @@ export const StyledApp = styled.div`
 	.App-header {
 		display: flex;
 		justify-content: space-between;
-		/* display: inline-block; */
 		width: 100%;
 	}
 `;

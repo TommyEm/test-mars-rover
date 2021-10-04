@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { themeDarkMode, themeLightMode } from './style/themes';
+import { themeDarkMode, themeLightMode } from '../../../style/themes';
 
-import { StyledApp } from './App.styled';
-import { Title } from './components/title/Title';
-import { GridLayout } from './components/layout/gridlayout/GridLayout';
-import { CommandsLayout } from './components/layout/commandslayout/CommandsLayout';
-import { Button } from './components/button/Button';
-import { GlobalStyle } from './style/GlobalStyle';
+import { StyledApp } from './AppLayout.styled';
+import { Title } from '../../title/Title';
+import { GridLayout } from '../gridlayout/GridLayout';
+import { CommandsLayout } from '../commandslayout/CommandsLayout';
+import { Button } from '../../button/Button';
+import { GlobalStyle } from '../../../style/GlobalStyle';
 
 
-function App() {
+export const AppLayout = () => {
 	const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
 	const [theme, setTheme] = useState(themeDarkMode);
 
@@ -25,7 +25,7 @@ function App() {
 			<StyledApp className='App'>
 				<header className='App-header'>
 					<Title>Mars Rover</Title>
-					<Button onClick={toggleThemeMode}>
+					<Button isActive={isDarkMode} onClick={toggleThemeMode}>
 						{isDarkMode ? 'Light mode' : 'Dark mode'}
 					</Button>
 				</header>
@@ -36,6 +36,4 @@ function App() {
 			</StyledApp>
 		</ThemeProvider>
 	);
-}
-
-export default App;
+};

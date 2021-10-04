@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react';
 import { GridLayout, IGridLayoutProps } from './GridLayout';
 
 export default {
-	title: 'Layout/GridLayout',
+	title: 'Layout/Grid',
 	component: GridLayout,
 } as Meta;
 
@@ -12,6 +12,3 @@ export default {
 const Template: Story<IGridLayoutProps> = args => <GridLayout {...args} />;
 
 export const Default = Template.bind({});
-Default.args = {
-
-};

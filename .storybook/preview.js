@@ -1,3 +1,4 @@
+import { Store } from '../src/store/Store';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from '../src/style/GlobalStyle';
 import { themeDarkMode } from '../src/style/themes';
@@ -17,10 +18,12 @@ export const parameters = {
 const withThemeProvider = (Story, context) => {
 	return (
 		<>
-			<ThemeProvider theme={themeDarkMode}>
-				<GlobalStyle />
-				<Story {...context} />
-			</ThemeProvider>
+			<Store>
+				<ThemeProvider theme={themeDarkMode}>
+					<GlobalStyle />
+					<Story {...context} />
+				</ThemeProvider>
+			</Store>
 		</>
 	);
 };

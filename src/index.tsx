@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 
 import { Store } from './store/Store';
-import App from './App';
+import { AppLayout } from './components/layout/app/AppLayout';
 
 ReactDOM.render(
 	<React.StrictMode>
 		<Store>
-			<App />
+			<AppLayout />
 		</Store>
 	</React.StrictMode>,
 	document.getElementById('root')

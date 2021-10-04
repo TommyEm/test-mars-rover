@@ -8,8 +8,8 @@ Object {
       <input
         class="sc-bdfBQB krYgwB Input undefined"
         data-testid="test-Input"
-        id="input1"
-        name="input1"
+        id="input"
+        name="input"
         type="text"
         value=""
       />
@@ -19,8 +19,8 @@ Object {
     <input
       class="sc-bdfBQB krYgwB Input undefined"
       data-testid="test-Input"
-      id="input1"
-      name="input1"
+      id="input"
+      name="input"
       type="text"
       value=""
     />
