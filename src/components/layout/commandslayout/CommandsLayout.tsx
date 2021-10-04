@@ -7,7 +7,7 @@ import { StyledCommandsLayout } from './CommandsLayout.styled';
 import { Label } from '../../form/label/Label';
 import { Input } from '../../form/input/Input';
 import { Button } from '../../button/Button';
-import { moveRover } from '../../lib/moveRover';
+import { moveRover } from '../../../lib/moveRover';
 import { RoverCommands } from '../../../types/rover';
 
 

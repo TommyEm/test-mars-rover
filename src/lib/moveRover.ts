@@ -1,5 +1,5 @@
-import { RoverCommands, RoverDirection, RoverPosition } from "../../types/rover";
-import { GRID_SIZE } from "../../constants";
+import { RoverCommands, RoverDirection, RoverPosition } from "../types/rover";
+import { GRID_SIZE } from "../constants";
 
 export function moveRover(
 	command: RoverCommands,
