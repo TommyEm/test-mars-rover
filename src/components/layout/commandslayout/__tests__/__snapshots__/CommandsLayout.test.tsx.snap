@@ -6,11 +6,11 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdfBQB cOziRm CommandsLayout undefined"
+        class="sc-bdvvtL eRyFvX CommandsLayout undefined"
         data-testid="test-CommandsLayout"
       >
         <label
-          class="sc-gsTEea jgTHUl Label undefined"
+          class="sc-gsDKAQ cyVFBp Label undefined"
           data-testid="test-Label"
         >
           Enter some commands:
@@ -19,7 +19,7 @@ Object {
           class="CommandsLayout-input"
         >
           <input
-            class="sc-dlfnuX kVhtmp Input undefined"
+            class="sc-dkPtRN gitkdB Input undefined"
             data-testid="test-Input"
             id="commands"
             name="commands"
@@ -27,7 +27,7 @@ Object {
             value=""
           />
           <button
-            class="sc-hKgJUU kGjTEm Button"
+            class="sc-hKwDye jnWdae Button"
             data-testid="test-Button"
           >
             Reset
@@ -79,11 +79,11 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdfBQB cOziRm CommandsLayout undefined"
+      class="sc-bdvvtL eRyFvX CommandsLayout undefined"
       data-testid="test-CommandsLayout"
     >
       <label
-        class="sc-gsTEea jgTHUl Label undefined"
+        class="sc-gsDKAQ cyVFBp Label undefined"
         data-testid="test-Label"
       >
         Enter some commands:
@@ -92,7 +92,7 @@ Object {
         class="CommandsLayout-input"
       >
         <input
-          class="sc-dlfnuX kVhtmp Input undefined"
+          class="sc-dkPtRN gitkdB Input undefined"
           data-testid="test-Input"
           id="commands"
           name="commands"
@@ -100,7 +100,7 @@ Object {
           value=""
         />
         <button
-          class="sc-hKgJUU kGjTEm Button"
+          class="sc-hKwDye jnWdae Button"
           data-testid="test-Button"
         >
           Reset
