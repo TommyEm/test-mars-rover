@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdfBQB brVIOO Rover undefined"
+        class="sc-bdvvtL hQjkLK Rover undefined"
         data-testid="test-Rover"
         direction="N"
       />
@@ -14,7 +14,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdfBQB brVIOO Rover undefined"
+      class="sc-bdvvtL hQjkLK Rover undefined"
       data-testid="test-Rover"
       direction="N"
     />

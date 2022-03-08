@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdfBQB dUBEWo GridLayout undefined"
+        class="sc-bdvvtL kRavyZ GridLayout undefined"
         data-testid="test-GridLayout"
       >
         <div
@@ -16,7 +16,7 @@ Object {
             class="GridLayout-rover"
           >
             <div
-              class="sc-dlfnuX bfZyrL Rover undefined"
+              class="sc-dkPtRN bMsLSH Rover undefined"
               data-testid="test-Rover"
               direction="N"
             />
@@ -25,7 +25,7 @@ Object {
             class="GridLayout-grid"
           >
             <div
-              class="sc-gsTEea eoxSMM Grid undefined"
+              class="sc-gsDKAQ cUxCvs Grid undefined"
               data-testid="test-Grid"
               size="10"
             >
@@ -337,7 +337,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdfBQB dUBEWo GridLayout undefined"
+      class="sc-bdvvtL kRavyZ GridLayout undefined"
       data-testid="test-GridLayout"
     >
       <div
@@ -347,7 +347,7 @@ Object {
           class="GridLayout-rover"
         >
           <div
-            class="sc-dlfnuX bfZyrL Rover undefined"
+            class="sc-dkPtRN bMsLSH Rover undefined"
             data-testid="test-Rover"
             direction="N"
           />
@@ -356,7 +356,7 @@ Object {
           class="GridLayout-grid"
         >
           <div
-            class="sc-gsTEea eoxSMM Grid undefined"
+            class="sc-gsDKAQ cUxCvs Grid undefined"
             data-testid="test-Grid"
             size="10"
           >
