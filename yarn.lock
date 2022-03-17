@@ -3631,7 +3631,7 @@
     webpack-hot-middleware "^2.25.1"
     webpack-virtual-modules "^0.2.2"
 
-"@storybook/builder-webpack5@^6.5.0-alpha.46":
+"@storybook/builder-webpack5@6.5.0-alpha.46":
   version "6.5.0-alpha.46"
   resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-6.5.0-alpha.46.tgz#e4b1f12e4f4a60568a7455892fb69e53427148b8"
   integrity sha512-AQpb4k2z+DBBSozSAvK3NBTlyzTzYkb16iw48vzskOfrvv3zarJxK85cNIuxbLW8G9w9Ifh9VJFPzBfVVKci3Q==
@@ -3968,7 +3968,7 @@
     webpack-dev-middleware "^3.7.3"
     webpack-virtual-modules "^0.2.2"
 
-"@storybook/manager-webpack5@^6.5.0-alpha.46":
+"@storybook/manager-webpack5@6.5.0-alpha.46":
   version "6.5.0-alpha.46"
   resolved "https://registry.yarnpkg.com/@storybook/manager-webpack5/-/manager-webpack5-6.5.0-alpha.46.tgz#b3e8c9413ed0e9becfef62277e0cd34630c0b787"
   integrity sha512-j95VOMobPEFSJUaoV4J3SO+CXA7WcpjWn7soKnKtNZibGsC0tBi5iUWqwV4w0qJ57Xl6jfemoiJovadkXI1OQg==
@@ -4041,10 +4041,10 @@
   dependencies:
     core-js "^3.8.2"
 
-"@storybook/preset-create-react-app@4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-4.0.1.tgz#b0d9ce94430299f2dbae9578d6a925e980d2257c"
-  integrity sha512-+4wipy3MS6ygDJdCVxJZ5bjWg2Z2mOD3BnPsfZRHzi/MAbi4CexJllymk+B54E1PziXoSg2Yw0S69O/e1v50Fg==
+"@storybook/preset-create-react-app@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-4.1.0.tgz#8f2dc1d5ac07b806b7a3fa4f57654c21150a9821"
+  integrity sha512-xMQlWhT8qHBnfrep4g+f2UFndpAiYnhkilHaf081eA9hsnSlj7Z9WKgHC5n09jBhfZpgL5Zf7Mx3lNwhHoEXBw==
   dependencies:
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.1"
     "@storybook/react-docgen-typescript-plugin" canary
