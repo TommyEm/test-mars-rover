@@ -16,7 +16,7 @@
   },
   "packageRules": [
     {
-      "updateTypes": [
+      "matchUpdateTypes": [
         "minor",
         "patch"
       ],
