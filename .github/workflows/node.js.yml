@@ -16,6 +16,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        
+      # Install Yarn
+      - uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: install
 
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
