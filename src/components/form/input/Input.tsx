@@ -2,7 +2,6 @@ import React from 'react';
 
 import { StyledInput } from './Input.styled';
 
-
 export interface IInputProps {
 	className?: string;
 	name: string;
@@ -16,15 +15,15 @@ export const Input: React.FC<IInputProps> = ({
 	value,
 	onChange,
 }: IInputProps) => {
-    return (
+	return (
 		<StyledInput
 			id={name}
 			className={`Input ${className}`}
 			name={name}
-			type='text'
+			type="text"
 			value={value}
 			onChange={onChange}
-			data-testid='test-Input'
+			data-testid="test-Input"
 		/>
 	);
-}
+};

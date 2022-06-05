@@ -2,7 +2,6 @@ import React from 'react';
 
 import { StyledLabel } from './Label.styled';
 
-
 export interface ILabelProps {
 	className?: string;
 	children: React.ReactNode;
@@ -14,13 +13,13 @@ export const Label: React.FC<ILabelProps> = ({
 	children,
 	forHtml,
 }: ILabelProps) => {
-    return (
+	return (
 		<StyledLabel
 			className={`Label ${className}`}
 			forHtml={forHtml}
-			data-testid='test-Label'
+			data-testid="test-Label"
 		>
 			{children}
 		</StyledLabel>
 	);
-}
+};

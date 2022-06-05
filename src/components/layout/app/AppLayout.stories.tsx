@@ -8,7 +8,6 @@ export default {
 	component: AppLayout,
 } as Meta;
 
-
 const Template: Story = args => <AppLayout {...args} />;
 
 export const Default = Template.bind({});

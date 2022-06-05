@@ -67,6 +67,8 @@
     "@storybook/react": "6.5.5",
     "@storybook/testing-react": "1.2.4",
     "@types/styled-components": "5.1.24",
+    "cypress": "^10.0.2",
+    "eslint-plugin-cypress": "^2.12.1",
     "style-dictionary": "3.7.0",
     "webpack": "5.71.0"
   }

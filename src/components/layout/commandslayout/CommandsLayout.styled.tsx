@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 import designTokens from '../../../design-tokens/build/ts';
 
-
 const { size } = designTokens;
 
 export const StyledCommandsLayout = styled.div`
 	display: flex;
 	flex-direction: column;
 	max-width: 500px;
-	padding: ${size.space.s4.value} ${size.space.s4.value} ${size.space.s10.value};
+	padding: ${size.space.s4.value} ${size.space.s4.value}
+		${size.space.s10.value};
 
 	.CommandsLayout-input {
 		display: grid;

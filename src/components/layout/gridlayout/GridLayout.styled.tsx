@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-
 export const StyledGridLayout = styled.div`
 	position: relative;
 	perspective: 500px;
 
 	.GridLayout-content {
-		transform: translateY(-65px) rotate3d(1, 0, 0, 45deg) perspective(800px);
+		transform: translateY(-65px) rotate3d(1, 0, 0, 45deg)
+			perspective(800px);
 	}
 
 	.GridLayout-rover,
@@ -26,5 +26,4 @@ export const StyledGridLayout = styled.div`
 		position: relative;
 		z-index: 10;
 	}
-
 `;

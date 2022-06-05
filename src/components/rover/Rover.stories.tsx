@@ -8,7 +8,6 @@ export default {
 	component: Rover,
 } as Meta;
 
-
 const Template: Story<IRoverProps> = args => <Rover {...args} />;
 
 export const Default = Template.bind({});

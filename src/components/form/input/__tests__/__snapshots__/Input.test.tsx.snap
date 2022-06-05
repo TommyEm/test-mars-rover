@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <input
-        class="sc-bdvvtL gUYqhY Input undefined"
+        class="sc-bczRLJ fuFwor Input undefined"
         data-testid="test-Input"
         id="input"
         name="input"
@@ -17,7 +17,7 @@ Object {
   </body>,
   "container": <div>
     <input
-      class="sc-bdvvtL gUYqhY Input undefined"
+      class="sc-bczRLJ fuFwor Input undefined"
       data-testid="test-Input"
       id="input"
       name="input"

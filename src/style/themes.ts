@@ -1,35 +1,34 @@
 import { DefaultTheme } from 'styled-components';
 import designTokens from '../design-tokens/build/ts';
 
-
 declare module 'styled-components' {
 	export interface DefaultTheme {
 		foreground: {
-			primary: string,
-			secondary: string,
-			subtle: string,
-			accent: string,
-			disabled: string,
-			focus: string,
+			primary: string;
+			secondary: string;
+			subtle: string;
+			accent: string;
+			disabled: string;
+			focus: string;
 		};
 		background: {
-			primary: string,
-			secondary: string,
-			subtle: string,
-			accent: string,
-			disabled: string,
-			focus: string,
+			primary: string;
+			secondary: string;
+			subtle: string;
+			accent: string;
+			disabled: string;
+			focus: string;
 		};
 		action: {
-			idle: string,
-			hover: string,
-			pressed: string,
-			active: string,
-			activeHover: string,
-			activePressed: string,
-			loading: string,
-			disabled: string,
-			focus: string,
+			idle: string;
+			hover: string;
+			pressed: string;
+			active: string;
+			activeHover: string;
+			activePressed: string;
+			loading: string;
+			disabled: string;
+			focus: string;
 		};
 	}
 }

@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 import designTokens from '../../design-tokens/build/ts';
 
-
 const { size } = designTokens;
-
 
 export const StyledButton = styled.button`
 	all: unset;
@@ -13,7 +11,7 @@ export const StyledButton = styled.button`
 	line-height: ${size.font.lineheight.s4.value};
 	text-align: center;
 	cursor: pointer;
-	transition: all .2s ease-out;
+	transition: all 0.2s ease-out;
 
 	&:hover {
 		color: ${props => props.theme.action.hover};

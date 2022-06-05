@@ -9,7 +9,6 @@ import { CommandsLayout } from '../commandslayout/CommandsLayout';
 import { Button } from '../../button/Button';
 import { GlobalStyle } from '../../../style/GlobalStyle';
 
-
 export const AppLayout = () => {
 	const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
 	const [theme, setTheme] = useState(themeDarkMode);
@@ -17,22 +16,25 @@ export const AppLayout = () => {
 	const toggleThemeMode = () => {
 		setTheme(isDarkMode ? themeLightMode : themeDarkMode);
 		setIsDarkMode(!isDarkMode);
-	}
+	};
 
 	return (
 		<ThemeProvider theme={theme}>
 			<GlobalStyle />
-			<StyledApp className='App'>
-				<header className='App-header'>
-					<Title>Mars Rover</Title>
-					<Button isActive={isDarkMode} onClick={toggleThemeMode}>
+			<StyledApp className="App">
+				<header className="App-header">
+					<Title testId="main-title">Mars Rover</Title>
+					<Button
+						isActive={isDarkMode}
+						onClick={toggleThemeMode}
+					>
 						{isDarkMode ? 'Light mode' : 'Dark mode'}
 					</Button>
 				</header>
 
 				<GridLayout />
 
-				<div className='App-commands'>
+				<div className="App-commands">
 					<CommandsLayout />
 				</div>
 			</StyledApp>

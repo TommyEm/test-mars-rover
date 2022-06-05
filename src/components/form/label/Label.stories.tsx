@@ -8,7 +8,6 @@ export default {
 	component: Label,
 } as Meta;
 
-
 const Template: Story<ILabelProps> = args => <Label {...args} />;
 
 export const Default = Template.bind({});

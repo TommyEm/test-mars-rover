@@ -3,7 +3,6 @@ import classNames from 'classnames';
 
 import { StyledButton } from './Button.styled';
 
-
 export interface IButtonProps {
 	className?: string;
 	children: React.ReactNode;
@@ -17,16 +16,17 @@ export const Button: React.FC<IButtonProps> = ({
 	isActive = false,
 	onClick,
 }: IButtonProps) => {
+	const cx = classNames('Button', className, {
+		'mod-active': isActive,
+	});
 
-	const cx = classNames('Button', className, { 'mod-active': isActive });
-
-    return (
+	return (
 		<StyledButton
 			className={cx}
 			onClick={onClick}
-			data-testid='test-Button'
+			data-testid="test-Button"
 		>
 			{children}
 		</StyledButton>
 	);
-}
+};

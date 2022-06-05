@@ -8,7 +8,6 @@ export default {
 	component: Grid,
 } as Meta;
 
-
 const Template: Story<IGridProps> = args => <Grid {...args} />;
 
 export const Default = Template.bind({});

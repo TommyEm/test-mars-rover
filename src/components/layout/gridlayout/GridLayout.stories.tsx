@@ -8,7 +8,8 @@ export default {
 	component: GridLayout,
 } as Meta;
 
-
-const Template: Story<IGridLayoutProps> = args => <GridLayout {...args} />;
+const Template: Story<IGridLayoutProps> = args => (
+	<GridLayout {...args} />
+);
 
 export const Default = Template.bind({});

@@ -3,8 +3,6 @@ import { reducer } from './reducer';
 import { IAppContext, IAppState } from '../types/store';
 import * as constants from '../constants';
 
-
-
 export const initialState: IAppState = {
 	commands: '',
 	rover: {
@@ -12,7 +10,6 @@ export const initialState: IAppState = {
 		position: constants.ROVER_DEFAULT_POSITION,
 	},
 };
-
 
 export const AppContext = createContext<IAppContext>({
 	state: initialState,
