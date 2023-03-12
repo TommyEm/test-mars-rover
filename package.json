@@ -68,6 +68,6 @@
     "@storybook/testing-react": "1.2.4",
     "@types/styled-components": "5.1.24",
     "style-dictionary": "3.7.0",
-    "webpack": "5.71.0"
+    "webpack": "5.76.1"
   }
 }
